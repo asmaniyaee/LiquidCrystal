@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "Asma Niyaee",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 115.8, "left": -39, "attrs": {} },
+    { "type": "wokwi-lcd1602", "id": "lcd1", "top": -111.77, "left": 25.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "lcd1:RS", "uno:13", "green", [ "v0" ] ],
+    [ "lcd1:RW", "uno:12", "green", [ "v0" ] ],
+    [ "lcd1:E", "uno:11", "green", [ "v0" ] ],
+    [ "lcd1:D5", "uno:9", "green", [ "v0" ] ],
+    [ "lcd1:D4", "uno:10", "green", [ "v0" ] ],
+    [ "lcd1:D6", "uno:8", "green", [ "v0" ] ],
+    [ "lcd1:D7", "uno:7", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
